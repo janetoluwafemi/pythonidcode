@@ -38,7 +38,7 @@ def display_options():
             pin = input("Enter your pin to make transfer")
             for contact in contacts:
                 if (person_account_number.__eq__(contact[4])):
-                    amount = input(int("Enter the amount you want to deposit: "))
+                    amount = float(input("Enter the amount you want to deposit: "))
                     pin = input(str("Enter your pin: "))
                     if (amount < 0):
                         contact[5] += amount
