@@ -30,6 +30,7 @@ def multiply_the_third_elements(numbers):
             sum *= num
     return sum
 
+
 def odd_numbers(numbers):
     sum = 0
     for num in numbers:
@@ -138,7 +139,8 @@ def remove_all_elements_in_the_first_set(first_number):
     first_set.clear()
     return first_set
 
-def remove_only_the_elements_in_the_first_set(first_number,second_number):
+
+def remove_only_the_elements_in_the_first_set(first_number, second_number):
     first_set = set(first_number)
     second_set = set(second_number)
     result = first_set.union(second_set)
@@ -227,3 +229,9 @@ def addition_collection_of_numbers(numbers):
     sum = set(result)
     final_result = result + sum
     return final_result
+
+
+def check_if_elements_in_the_first_is_in_the_second(first_number, second_numbers):
+    first_set = set(first_number)
+    second_set = set(second_numbers)
+     return first_set.
