@@ -231,7 +231,7 @@ def addition_collection_of_numbers(numbers):
     return final_result
 
 
-def check_if_elements_in_the_first_is_in_the_second(first_number, second_numbers):
-    first_set = set(first_number)
-    second_set = set(second_numbers)
-     return first_set.
+# def check_if_elements_in_the_first_is_in_the_second(first_number, second_numbers):
+#     first_set = set(first_number)
+#     second_set = set(second_numbers)
+#      return first_set.
